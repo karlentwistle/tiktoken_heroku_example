@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/StileEducation/tiktoken_ruby.git
+  revision: d7bdeb57336cee5fbcc9f59ca6069db726d260fa
+  specs:
+    tiktoken_ruby (0.0.6)
+      rb_sys (~> 0.9.86)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -182,6 +189,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.1.0)
+    rb_sys (0.9.86)
     rdoc (6.6.2)
       psych (>= 4.0.0)
     redis (4.8.1)
@@ -247,6 +255,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  tiktoken_ruby!
   turbo-rails
   tzinfo-data
   web-console
